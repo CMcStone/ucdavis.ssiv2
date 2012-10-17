@@ -1,4 +1,4 @@
-ucdavis.jewishstudies
+ucdavis.polisci
 =====================
 
-jewishstudies skin
+polisci skin
