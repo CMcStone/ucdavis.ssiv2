@@ -57,7 +57,8 @@
     <!-- Pull in search box -->
     
         <!-- Pull in content -->
-    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
+    <!--copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' /-->
+    <replace theme='//*[@id="wrapper-content"]' content='//*[@id="portal-column-content"]' />
     <!-- Drop global navigation menu's class-->
     <drop attributes="class" css:content="#portal-column-content"/>
     <!-- Pull in column 1 -->
