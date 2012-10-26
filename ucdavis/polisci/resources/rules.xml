@@ -52,13 +52,13 @@
     <!-- Drop global navigation menu's id-->
     <!--drop attributes="id" css:content="#portal-globalnav"/-->
     <!-- Pull in personal tools -->
-    <append content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="header"]' />
+    <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="page"]' />
     
     <!-- Pull in search box -->
     
         <!-- Pull in content -->
-    <!--copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' /-->
-    <replace theme='//*[@id="wrapper-content"]' content='//*[@id="portal-column-content"]' />
+    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
+    <!--replace theme='//*[@id="wrapper-content"]' content='//*[@id="portal-column-content"]' /-->
     <!-- Drop global navigation menu's class-->
     <drop attributes="class" css:content="#portal-column-content"/>
     <!-- Pull in column 1 -->
@@ -75,7 +75,7 @@
     
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
-    <theme href="index2.html" css:if-content="#visual-portal-wrapper" />
+    <theme href="index4.html" css:if-content="#visual-portal-wrapper" />
  
 
 </rules>

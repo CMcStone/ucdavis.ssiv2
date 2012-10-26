@@ -27,7 +27,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	width:100%;
 	border-top: 1px solid white;
 	background:rgb(51,83,121);
-	border-bottom:2px solid #B5B5B5;
+	
 }
 #header-bar2 {
 	margin:0px auto;
@@ -37,7 +37,6 @@ Released for free under a Creative Commons Attribution 2.5 License
 	margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
-	
 
 }
 .ucd-logo {
@@ -46,44 +45,44 @@ Released for free under a Creative Commons Attribution 2.5 License
 #header-wrapper {
 	width:1000px;
 	margin:auto;
+	height: 228px;
 }
 div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f706f6c697363692f66726f6e742d706167650a626c696e672d736c69646573686f77.portletWrapper dl.portlet {
-	width: 785px;
-	height: 221px;
+	width: 778px;
+	height: 220px;
+	overflow: hidden;
 }
+
+
 #row {
 	
 }
 
 #slides 	{
 	margin:0px auto;
-	height: 222px;
+	height: 225px;
 	width:1000px;
-	border-left:2px solid white;
-	border-right:2px solid white;
 	margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
 }
 #slides-1 {
 	float: left;
-	border-right: 2px solid white;
-	height:222px;
+	border: 4px solid white;
+	height:220px;
 }
 #slides-2 {
-	margin-left: 215px;
-	width: 785px;
-	height:222px;
-}
-.portlet portletBling blingid-ad7e4106ad7ffb22a4baa1ddc31f9765 {
-	width:785px;
-	height:222px;
+	margin-left: 217px;
+	width: 778px;
+	border: 4px solid white;
+	height: 220px;
+	z-index: 5100;
 }
 
 ul.slideshow {
 	list-style: none;
-	width: 785px;
-	height: 222px;
+	width: 778px;
+	height: 220px;
 	overflow: visible;
 	position: relative;
 	margin-top: -28px;
@@ -200,7 +199,7 @@ div.managePortletsLink a{
 body {
 	margin: 0;
 	padding: 0;
-	background-color:#EDEDED;
+	background-color: #E9CC66;
 	font-family: verdana,arial,sans-serif;
 	font-size: 16px;
 	color: #66665E;
@@ -273,20 +272,24 @@ hr { display: none; }
 }
 
 #header {
-	width: 1000px;
+	width: 100%;
 	height: 40px;
 	margin: 0 auto;
-	background: #000000;
+	background: rgb(51,83,121);
+	border-bottom: solid .1em #BC8D09;
 	border-right: solid black;
 }
 
 /* Portal Global-nav*/
 #portal-globalnav {
+width: 1001px;
+height: 40px;
 clear: both;
 font-size: 80%;
 background: #000000;
-margin: 0 0 0 0;
+margin: auto;
 color: white;
+z-index: 5;
 }
 #portal-globalnav li a {
 display: inline-block;
@@ -462,11 +465,12 @@ border-bottom-left-radius: 0.5em;
 /* Content */
 
 #wrapper-content{
-	width: 760px;
+	float: left;
+	width: 700px;
 }
 #content{
 	padding-left: 5px;
-	width: 760px;
+	width: 695px;
 }
 
 
