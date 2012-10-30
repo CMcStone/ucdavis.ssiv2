@@ -349,8 +349,8 @@ portal-globalnav:hover li:hover ul > a {
 float: right;
 background: #A7A6A2;
 position: relative;
-z-index: 3;
-top: 0;
+z-index: 7000;
+top: 5px;
 right: 0;
 padding: 0.25em 0.5em;
 font-size: 80%;
