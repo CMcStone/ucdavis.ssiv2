@@ -171,11 +171,13 @@ dl.portlet dt,
 div.portletAssignments div.portletHeader,
 div.managePortletsLink,
 a.managePortletsFallback{
-	background-color:#336600;
+	background-color: rgb(51,83,121);
+	border: solid black;
 	color: #FFF;
 }
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 color: white;
+
 }
 
 div.managePortletsLink a{
@@ -468,17 +470,25 @@ border-bottom-left-radius: 0.5em;
 	float: left;
 	width: 700px;
 }
+#portal-column-content{
+	padding-left: 10px;
+}
 #content{
-	padding-left: 5px;
+	padding-left 10px;
 	width: 695px;
 }
 
-
-
+#content p, #content table, #content dl, dl.portlet p, dl.portlet {
+margin-bottom: 1em;
+width: 100%;
+background-color: white;
+}
 
 /* Sidebar */
 
 #sidebar {
+	padding-top: 10px;
+	padding-right: 10px;
 	float: right;
 	width: 220px;
 }
