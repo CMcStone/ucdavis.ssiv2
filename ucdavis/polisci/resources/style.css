@@ -175,10 +175,7 @@ a.managePortletsFallback{
 	border: solid black;
 	color: #FFF;
 }
-dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
-color: white;
 
-}
 
 div.managePortletsLink a{
     color: #FFF;
@@ -291,6 +288,8 @@ font-size: 80%;
 background: #000000;
 margin: auto;
 color: white;
+border-left: white solid 1px;
+border-right: white solid 1px;
 z-index: 5;
 }
 #portal-globalnav li a {
