@@ -59,7 +59,7 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 }
 
 #slides 	{
-	margin:0px auto;
+        margin: auto;
 	height: 225px;
 	width:1000px;
 	margin-top:0px;
@@ -304,7 +304,8 @@ border-right: 0.1em solid white;
 color: white;
 }
 
-#portal-globalnav li.selected a {
+#portal-globalnav li.selected a i
+height: 40px;{
 background-color: #002855;
 color: white;
 }
@@ -351,7 +352,7 @@ float: right;
 background: #A7A6A2;
 position: relative;
 z-index: 7000;
-top: 5px;
+top: 0;
 right: 0;
 padding: 0.25em 0.5em;
 font-size: 80%;

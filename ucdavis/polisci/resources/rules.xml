@@ -52,7 +52,7 @@
     <!-- Drop global navigation menu's id-->
     <!--drop attributes="id" css:content="#portal-globalnav"/-->
     <!-- Pull in personal tools -->
-    <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="slides"]' />
+    <append content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="banner"]' />
     
     <!-- Pull in search box -->
     
