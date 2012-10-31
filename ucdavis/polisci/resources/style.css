@@ -47,7 +47,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	margin:auto;
 	height: 228px;
 }
-div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a626c696e672d736c69646573686f77.portletWrapper dl.portlet {
+div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f706f6c697363692f66726f6e742d706167650a626c696e672d736c69646573686f77.portletWrapper dl.portlet {
 	width: 778px;
 	height: 220px;
 	overflow: hidden;
@@ -296,6 +296,7 @@ z-index: 5;
 #portal-globalnav li a {
 display: inline-block;
 padding: 0.5em 2em 1em 1em;
+line-height: 1.7em;
 background: #000000;
 min-width: 6em;
 white-space: normal;
@@ -356,10 +357,6 @@ padding: 0.25em 0.5em;
 font-size: 80%;
 border-bottom-right-radius: 0.5em;
 border-bottom-left-radius: 0.5em;
--webkit-border-bottom-right-radius: 0.5em;
--webkit-border-bottom-left-radius: 0.5em;
--moz-border-radius-bottomleft: 0.5em;
--moz-border-radius-bottomright: 0.5em;
 }
 #portal-personaltools dd {
     background: #A7A6A2;
