@@ -310,12 +310,12 @@ background-color: #002855;
 color: white;
 }
 #portal-globalnav .selected a, #portal-globalnav a:hover {
-background: #CCCCCC;
+background: #335379;
 color: white;
 }
 /* for drop down menus */
 #portal-globalnav:hover li:hover > a {
-  background-color:#00619A;
+  background-color:#335379;
   color: white;
   }
 portal-globalnav:hover li:hover ul > a {
