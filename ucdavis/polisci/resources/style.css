@@ -178,10 +178,10 @@ a.managePortletsFallback{
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 color: white;
 }
-#content dl, dl.portlet p, dl.portlet {
-	bodrder: solid 0.1em black;
+dl.portlet {
+    font-size: 80%;
+    border: solid 0.1em black;
 }
-
 div.managePortletsLink a{
     color: #FFF;
 }
