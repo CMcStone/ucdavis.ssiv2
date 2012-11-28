@@ -3,7 +3,7 @@ import os
 
 version = '1.0'
 
-setup(name='ucdavis.polisci',
+setup(name='ucdavis.polisci2',
       version=version,
       description="Diazo Template",
       long_description=open("README.rst").read() + "\n" +

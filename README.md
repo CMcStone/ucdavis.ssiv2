@@ -1,4 +1,4 @@
-ucdavis.polisci
+ucdavis.polisci2
 =====================
 
-polisci skin
+polisci2 skin
