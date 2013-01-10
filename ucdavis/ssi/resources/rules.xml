@@ -1,0 +1,81 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <!-- Head: title -->
+    <replace content="/html/head/title" theme="/html/head/title" />
+    <!-- Base tag -->
+    <replace content="/html/head/base" theme="/html/head/base" />
+    <!-- meta tag -->
+    <replace content="/html/head/meta" theme="/html/head/meta" />
+   <!-- Drop styles in the head - these are added back by including them from Plone -->
+    <!--
+    <drop theme="/html/head/link" />
+    <drop theme="/html/head/style" />
+    -->
+    <!-- Pull in Plone CSS -->
+    <prepend content="/html/head/link | /html/head/style " theme="/html/head"/>
+    <!--before content='/html/head' theme='/html/head' /-->
+
+    <!-- Pull in Plone JS -->
+
+    <after content="/html/head/script" theme="/html/head"/>
+   <!--searchbox -->
+    <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="banner"]' />
+     <!--slides -->
+     <!--replace css:theme-children="#logo h1">
+        <xsl:for-each css:select="a#portal-logo">
+          <xsl:value-of select="@title" />
+        </xsl:for-each>
+    </replace-->
+    
+	<drop css:content="#portlets-in-header" />
+	<before method="raw"
+		css:theme-children="#slides-2"
+	    css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a626c696e672d736c69646573686f77"
+		/> 
+	
+		
+    <!--replace theme='//*[@id="slides"]' content='//*[@id="portlets-above"]'  /-->
+    <!--copy content='//*[@id="portlets-above"]' theme='//*[@id="slides"]' /--> 
+     
+    
+    <!-- Body class -->
+    <copy attributes="class" css:theme="body" css:content="body"/>
+   
+    
+    <!-- Pull in global navigation menu - tried a few different things-->
+    <!--replace theme='//*[@id="header"]' content='//*[@id="portal-globalnav"]' /-->
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="header"]' />
+    <!--replace theme='//*[@id="menu"]' content='//*[@id="portal-globalnav"]' /-->
+    <!-- Drop global navigation menu's id-->
+    <!--drop attributes="id" css:content="#portal-globalnav"/-->
+    <!-- Pull in personal tools -->
+    <append content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="banner"]' />
+    
+    <!-- Pull in search box -->
+    
+        <!-- Pull in content -->
+    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
+    <!--replace theme='//*[@id="wrapper-content"]' content='//*[@id="portal-column-content"]' /-->
+    <!-- Drop global navigation menu's class-->
+    <drop attributes="class" css:content="#portal-column-content"/>
+    <!-- Pull in column 1 -->
+    <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+    <!-- Drop global navigation menu's class-->
+    <drop attributes="class" css:content="#portal-column-one"/>
+    <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
+	<append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
+
+    <!--copy content='//*[@id="portal-logo"]' theme='//*[@id="logo"]' /-->
+	<!--copy attributes="href title" css:content='#portal-logo' css:theme='#logo h1 a' /-->
+	<drop content='//*[@id="portal-colophon"]' />
+
+    
+    <drop theme='//*[@id="slogan"]' />
+    <drop theme='//*[@id="rss"]' />
+    <theme href="index4.html" css:if-content="#visual-portal-wrapper" />
+ 
+
+</rules>
