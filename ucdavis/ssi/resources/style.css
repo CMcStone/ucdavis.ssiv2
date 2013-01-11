@@ -4,18 +4,19 @@ Design by Carol McMasters-Stone, ucdavis
 Released for free under a Creative Commons Attribution 2.5 License
 */
 #wrapper {
+	margin-left: 30px;
 }
 
 .header-bar-container {
 	width:100%;
+	margin-left: 30px;
 	background:#fff;
 	}
 
 .header-bar {
-	margin:0px auto;
 	height:90 px;
 	background:#fff;
-	width:1000px;
+/*	width:1000px; */
 	margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
@@ -30,10 +31,10 @@ Released for free under a Creative Commons Attribution 2.5 License
 	
 }
 #header-bar2 {
-	margin:0px auto;
+	margin:px auto;
 	height:15px;
 	background:rgb(0,0,102);
-	width:1000px;
+/*	width:1000px; */
 	margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
@@ -43,8 +44,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 	
 }
 #header-wrapper {
-	width:1000px;
-	margin:auto;
+/*	width:1000px; */
 	height: 228px;
 }
 div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a626c696e672d736c69646573686f77.portletWrapper dl.portlet {
@@ -59,7 +59,7 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 }
 
 #slides 	{
-        margin: auto;
+/*    margin: auto; */
 	height: 225px;
 	width:1000px;
 	margin-top:0px;
@@ -460,8 +460,7 @@ border-bottom-left-radius: 0.5em;
 /* Page */
 
 #page {
-	width: 1000px;
-	margin: 0 auto;
+/*	width: 1000px; */
 	background: #FFFFFF;
 	border-left: 1px #66665E solid;
 	border-bottom: 5px #66665E solid;
@@ -629,9 +628,8 @@ background-color: white;
 
 /* Footer */
 #footer {
-	width: 1000px;
-	margin: 0 auto;
-	padding: 0;
+/*	width: 1000px; */
+	margin-left: 30px;
 	height: 30px;
 }
 
