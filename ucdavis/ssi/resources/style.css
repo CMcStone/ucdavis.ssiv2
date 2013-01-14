@@ -13,7 +13,6 @@ Released for free under a Creative Commons Attribution 2.5 License
 .header-bar-container {
 	width:100%;
 	padding-left: 30px;
-	padding-right: 30px;
 	background:#fff;
 	}
 
@@ -62,8 +61,7 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 /*	background-image:url('images/goldbackbig.png') */
 /*	margin: auto; */
 	height: 225px;
-/*	width:1000px; */
-	margin-top:0px;
+    margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
 }
@@ -80,8 +78,11 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 	z-index: 5100;
 }
 #slides-3 {
-	float: right;
-	z-index: 2500;
+	margin-left:1015px;
+/* okay really. . .this is silly */
+    margin-top: -220px; 
+	float: left;
+	height: 220px;
 }
 
 ul.slideshow {
