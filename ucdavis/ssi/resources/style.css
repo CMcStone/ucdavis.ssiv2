@@ -2,14 +2,24 @@
 /*
 Design by Carol McMasters-Stone, ucdavis
 Released for free under a Creative Commons Attribution 2.5 License
+
 */
+html { 
+	background: url(images/bubbles.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 #wrapper {
 	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .header-bar-container {
 	width:100%;
-	margin-left: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 	background:#fff;
 	}
 
@@ -25,13 +35,12 @@ Released for free under a Creative Commons Attribution 2.5 License
 
 
 #header-bar-container2 {
-	width:100%;
 	border-top: 1px solid white;
 	background:rgb(0,0,102);
 	
 }
 #header-bar2 {
-	margin:px auto;
+/*	margin-right:10px;*/
 	height:15px;
 	background:rgb(0,0,102);
 /*	width:1000px; */
@@ -54,14 +63,12 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 }
 
 
-#row {
-	
-}
-
 #slides 	{
-/*    margin: auto; */
+	float: top;
+/*	background-image:url('images/goldbackbig.png') */
+/*	margin: auto; */
 	height: 225px;
-	width:1000px;
+/*	width:1000px; */
 	margin-top:0px;
 	margin-bottom:0px;
 	font-size:1.0em;
@@ -203,10 +210,16 @@ div.managePortletsLink a{
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #CFA21A;
+/*	background-color: #CFA21A; */
 	font-family: verdana,arial,sans-serif;
 	font-size: 16px;
-	color: #66665E;
+    color: #66665E;
+    background: url(images/bubbles2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	 background-size: cover; 
+	
 }
 
 h1, h2, h3 {
@@ -275,26 +288,25 @@ hr { display: none; }
 #header-wrapper {
 }
 
-#header {
+ #header {
 	width: 100%;
 	height: 40px;
 	margin: 0 auto;
 	background: rgb(51,83,121);
 	border-bottom: solid .1em #BC8D09;
-	border-right: solid black;
+/*	border-right: solid black; */
 }
 
 /* Portal Global-nav*/
 #portal-globalnav {
-width: 1001px;
+/*width: 1001px; */
 height: 40px;
 clear: both;
 font-size: 80%;
 background: rgb(51,83,121);
-margin: auto;
 color: white;
 border-left: white solid 1px;
-border-right: white solid 1px;
+/* border-right: white solid 1px; */
 z-index: 5;
 }
 #portal-globalnav li a {
@@ -329,7 +341,7 @@ portal-globalnav:hover li:hover ul > a {
 #portal-globalnav ul li a {
   background-color:#002855;
   border-top:1px solid #fff;
-  height:auto;
+  height:auto
   padding:0.5em 1.5em 0.5em 1em;
   vertical-align:top;
   width:12em;
@@ -356,7 +368,7 @@ float: right;
 background: #A7A6A2;
 position: relative;
 z-index: 7000;
-top: 0;
+padding-top: 2px;
 right: 0;
 padding: 0.25em 0.5em;
 font-size: 80%;
@@ -468,15 +480,15 @@ border-bottom-left-radius: 0.5em;
 /* Content */
 
 #wrapper-content{
-	float: left;
-	width: 700px;
+/*	float: left; */
+/*	width: 700px; */
 }
 #portal-column-content{
 	padding-left: 10px;
 }
 #content{
 	padding-left 10px;
-	width: 695px;
+/*	width: 695px; */
 }
 
 #content p, #content table, #content dl, dl.portlet p, dl.portlet {
