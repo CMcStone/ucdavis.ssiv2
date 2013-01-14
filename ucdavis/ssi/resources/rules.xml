@@ -57,14 +57,14 @@
     <!-- Pull in search box -->
     
         <!-- Pull in content -->
-    <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
+    <copy content='//*[@id="portal-columns"]' theme='//*[@id="wrapper-content"]' />
     <!--replace theme='//*[@id="wrapper-content"]' content='//*[@id="portal-column-content"]' /-->
     <!-- Drop global navigation menu's class-->
-    <drop attributes="class" css:content="#portal-column-content"/>
-    <!-- Pull in column 1 -->
-    <copy content='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
+    <!--drop attributes="class" css:content="#portal-column-content"/-->
+    <!-- Drop Sidebar -->
+    <drop theme='//*[@id="sidebar"]' />
     <!-- Drop global navigation menu's class-->
-    <drop attributes="class" css:content="#portal-column-one"/>
+    <!--drop attributes="class" css:content="#portal-column-one"/-->
     <copy content='//*[@id="portal-footer"]' theme='//*[@id="footer"]' />
 	<append content='//*[@id="portal-siteactions"]' theme='//*[@id="footer"]' />
 
