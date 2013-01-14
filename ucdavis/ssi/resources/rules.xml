@@ -34,7 +34,11 @@
 	<before method="raw"
 		css:theme-children="#slides-2"
 	    css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a626c696e672d736c69646573686f77"
-		/> 
+		/>
+	<before method="raw"	
+	    css:theme-children="#slides-3" 
+css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773" />
+
 	
 		
     <!--replace theme='//*[@id="slides"]' content='//*[@id="portlets-above"]'  /-->
