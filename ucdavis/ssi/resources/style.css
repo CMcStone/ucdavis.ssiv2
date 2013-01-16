@@ -88,7 +88,7 @@ div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f7
 	background-color: transparent;
 	border: none;
 }
-div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773.portletWrapper dl.portlet dt.portletHeader {
+div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773.portletWrapper dl.portlet dt.portletHeader{
 	background-color: transparent;
 	color: rgb(51,83,121);
 }
@@ -187,6 +187,7 @@ div.managePortletsLink,
 a.managePortletsFallback{
 	background-color: rgb(51,83,121);
 /*	border: solid black; */
+        border-bottom: solid .5em #BC8D09;
 	color: #FFF;
 }
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
@@ -194,7 +195,8 @@ color: white;
 }
 dl.portlet {
     font-size: 80%;
-    border: solid 0.1em black;
+/*    border: solid 0.1em black; */
+    background-color: #ccccc;
 }
 div.managePortletsLink a{
     color: #FFF;
@@ -327,8 +329,8 @@ border-right: 0.1em solid white;
 color: white;
 }
 
-#portal-globalnav li.selected a i
-height: 40px;{
+#portal-globalnav li.selected a i{
+height: 40px
 background-color: #002855;
 color: white;
 }
@@ -341,13 +343,13 @@ color: white;
   background-color:#335379;
   color: white;
   }
-portal-globalnav:hover li:hover ul > a {
+#portal-globalnav:hover li:hover ul > a {
   background-color:#335379;
   color: white;
   }
 #portal-globalnav ul li a {
   background-color:#002855;
-  border-top:1px solid #fff;
+/*  border-top:1px solid #fff;*/
   height:auto
   padding:0.5em 1.5em 0.5em 1em;
   vertical-align:top;
