@@ -164,19 +164,19 @@ a.read-more {
     margin: 2px 6px 0 0;
 }
 
-/* shades of gray */
-#content a:link,
-dl.portlet a:link{
-    color: #2F4D6A;
-}
-#content a:visited,
-dl.portlet a:visited,
-a:link,
-a:visited{
-    color: #2F4D6A;
+/* red link hover */
+
+#content a:visited {
+    border-bottom: 0.1em solid #CCCCCC;
+    color: #205C90;
 }
 #content a:hover, dl.portlet a:hover {
-    color: #667DA3 !important;
+    background-color: #E9CC66;
+    color: #1A3E68 !important;
+}
+
+#content dl.portlet a:visited {
+    color: #FFFFFF
 }
 
 
@@ -194,8 +194,16 @@ a.managePortletsFallback{
         border-bottom: solid .5em #BC8D09;
 	color: #FFF;
 }
+dt.portleitHeader a.tile a:hover {
+	color: gold;
+}
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 color: white;
+
+}
+
+dt..portletHeader a:hover {
+        color: #FFFFFF
 }
 dl.portlet {
     font-size: 80%;
@@ -357,7 +365,7 @@ color: white;
   background-color:#335379;
   color: white;
   }
-/*#portal-globalnav ul li a {
+#portal-globalnav ul li a {
   background-color:#002855;
  border-top:1px solid #fff;
   height:auto
@@ -365,7 +373,7 @@ color: white;
   vertical-align:top;
   width:12em;
   }
-*/
+
 #portal-globalnav li.selected ul li a {
   background-color:#335379;
   color: white;
@@ -504,6 +512,12 @@ border-bottom-left-radius: 0.5em;
 /*	float: left; */
 /*	width: 700px; */
 }
+#portal-column-one {
+padding-top: 20px;
+}
+#portal-column-two {
+padding-top: 20px;
+}
 #portal-column-content{
 	padding-left: 10px;
 }
@@ -599,8 +613,8 @@ background-color: white;
 	text-decoration: none;
 	color: #FFFFFF;
 
-
-
+}
+ 	 
 
 
 /* Calendar */
