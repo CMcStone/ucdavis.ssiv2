@@ -194,9 +194,6 @@ a.managePortletsFallback{
         border-bottom: solid .5em #BC8D09;
 	color: #FFF;
 }
-dt.portleitHeader a.tile a:hover {
-	color: gold;
-}
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
 color: white;
 
@@ -211,6 +208,9 @@ dl.portlet {
     background-color: #ccccc;
 }
 div.managePortletsLink a{
+    color: #FFF;
+}
+div.portletHeader a{
     color: #FFF;
 }
 
@@ -234,7 +234,7 @@ body {
 /*	background-color: #CFA21A; */
 	font-family: verdana,arial,sans-serif;
 	font-size: 16px;
-    color: #66665E;
+        color: #333333;
     background: url(images/golden-background2.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
