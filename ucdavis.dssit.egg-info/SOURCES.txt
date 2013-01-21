@@ -10,4 +10,4 @@ ucdavis.dssit.egg-info/namespace_packages.txt
 ucdavis.dssit.egg-info/not-zip-safe
 ucdavis.dssit.egg-info/requires.txt
 ucdavis.dssit.egg-info/top_level.txt
-ucdavis/ssi/__init__.py
+ucdavis/dssit/__init__.py

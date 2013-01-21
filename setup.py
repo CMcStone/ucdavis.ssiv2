@@ -3,10 +3,10 @@ import os
 
 version = '1.0'
 
-setup(name='ucdavis.ssi',
+setup(name='ucdavis.dssit',
       version=version,
       description="Diazo Template",
-      long_description=open("README.rst").read() + "\n" +
+      long_description=open("README.dss").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
