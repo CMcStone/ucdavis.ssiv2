@@ -13,12 +13,12 @@ Released for free under a Creative Commons Attribution 2.5 License
 .header-bar-container {
 	width:100%;
 	padding-left: 30px;
-	/*background:#fff;*/
+	background:#fff;
 	}
 
 .header-bar {
 	height:90 px;
-/*	background:#fff; */
+	background:#fff; 
 /*	width:1000px; */
 	margin-top:0px;
 	margin-bottom:0px;
