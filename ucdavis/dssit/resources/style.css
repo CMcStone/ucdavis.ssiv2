@@ -191,7 +191,7 @@ div.managePortletsLink,
 a.managePortletsFallback{
 	background-color: rgb(51,83,121);
 /*	border: solid black; */
-        border-bottom: solid .5em #BC8D09;
+        border-bottom: solid .5em #B2BDCF;
 	color: #FFF;
 }
 dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
