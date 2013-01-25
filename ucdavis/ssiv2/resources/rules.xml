@@ -56,7 +56,7 @@ css:content="#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e4865616
     <!-- Drop global navigation menu's id-->
     <!--drop attributes="id" css:content="#portal-globalnav"/-->
     <!-- Pull in personal tools -->
-    <append content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="banner"]' />
+    <append content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id=""]' />
     
     <!-- Pull in search box -->
     

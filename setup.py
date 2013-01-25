@@ -3,7 +3,7 @@ import os
 
 version = '1.0'
 
-setup(name='ucdavis.dssit',
+setup(name='ucdavis.ssiv2',
       version=version,
       description="Diazo Template",
       long_description=open("README.dss").read() + "\n" +

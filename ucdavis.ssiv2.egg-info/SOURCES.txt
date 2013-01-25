@@ -10,4 +10,4 @@ ucdavis.ssiv2.egg-info/namespace_packages.txt
 ucdavis.ssiv2.egg-info/not-zip-safe
 ucdavis.ssiv2.egg-info/requires.txt
 ucdavis.ssiv2.egg-info/top_level.txt
-ucdavis/ssi/__init__.py
+ucdavis/ssiv2/__init__.py
