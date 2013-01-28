@@ -50,48 +50,12 @@ Released for free under a Creative Commons Attribution 2.5 License
 /*	width:1000px; */
 	height: 228px;
 }
-div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572310a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a626c696e672d736c69646573686f77.portletWrapper dl.portlet {
-	width: 778px;
-	height: 220px;
-	overflow: hidden;
+#slider {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	
 }
 
-
-#slides 	{
-	float: top;
-/*	background-image:url('images/goldbackbig.png') */
-/*	margin: auto; */
-	height: 225px;
-    margin-top:0px;
-	margin-bottom:0px;
-	font-size:1.0em;
-}
-#slides-1 {
-	float: left;
-	border: 4px solid white;
-	height:220px;
-}
-#slides-2 {
-	margin-left: 217px;
-	width: 778px;
-	border: 4px solid white;
-	height: 220px;
-	z-index: 5100;
-}
-#slides-3 {
-	margin-left:1015px;
-/* okay really. . .this is silly */
-    margin-top: -220px; 
-	float: left;
-	height: 220px;
-}
-div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773.portletWrapper dl.portlet {
-	background-color: transparent;
-	border: none;
-}
-div#portletwrapper-436f6e74656e7457656c6c506f72746c6574732e496e486561646572506f72746c65744d616e61676572330a636f6e746578740a2f506f6c695363692f66726f6e742d706167650a6e657773.portletWrapper dl.portlet dt.portletHeader{
-	background-color: transparent;
-	color: rgb(51,83,121);
 }
 #blank-bar {
 	background-color:transparent;
@@ -323,6 +287,7 @@ hr { display: none; }
 /* Portal Global-nav*/
 #portal-globalnav {
 	background: rgb(51,83,121);
+	border-top: solid .2em #BC8D09;
 	border-bottom: solid .2em #BC8D09;
 	margin-bottom:  0;
 }
