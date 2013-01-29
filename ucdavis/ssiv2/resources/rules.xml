@@ -23,6 +23,7 @@
     <after content="/html/head/script" theme="/html/head"/>
    <!--searchbox -->
     <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="banner"]' />
+    <copy content='//*[@id="portal-searchbox"]' theme='//*[@id="searchbox"]' />
      <!--slides -->
      <!--replace css:theme-children="#logo h1">
         <xsl:for-each css:select="a#portal-logo">
@@ -47,7 +48,8 @@
     <!--drop attributes="id" css:content="#portal-globalnav"/-->
     <!-- Pull in personal tools -->
    <append content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="banner"]' />
-    
+   <copy content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="login"]' />
+		         
     <!-- Pull in search box -->
     
         <!-- Pull in content -->
